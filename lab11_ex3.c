@@ -2,6 +2,13 @@
 
 #define MAX_SIZE 10
 
+/*Aplicația 11.3: Definim reducerea unei matrici cu elemente întregi ca fiind valoarea calculată astfel: dacă matricea
+nu are niciun element, reducerea este 0. Dacă matricea are un element, reducerea este valoarea acelui element.
+Pentru orice alte cazuri, matricea se subîmparte în 4 matrici prin tăierea ei în cruce, prin mijlocul matricii. Reducerea
+va fi maximul reducerilor celor două matrici superioare, minus minimul reducerilor celor două matrici inferioare. Să
+se calculeze reducerea unei matrici de dimensiuni m,n citită de la tastatură.*/
+
+
 int minim(int a, int b) {
     return a < b ? a : b;
 }
